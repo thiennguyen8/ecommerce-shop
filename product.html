@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- CSS bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <!-- Icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/7CJlJ6xwLVf5wn0fVlKP4l9G8ewf7zeXjy6CUX0RWXQmVpIXWJq4ZD7BKFlLZWMfdg">
+    <title>Eshop</title>
+</head>
+
+
+<body class="bg-light" >
+    <!-- Header -->
+    <div class="container-fluid bg-white py-3">
+        <div class="container">   
+            <div class="row">
+                <!-- Left-header -->
+                <div class="header-left col-8 d-grid align-items-center" style="grid-template-columns: 0.5fr 8.5fr;">
+                    
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a class="text-decoration-none" href="homepage.html"><img src="./logo-eshop.png" style="width:80%;height: 80%;" class="rounded-circle"></a>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <!-- Input-form -->
+                        <form class="w-100 mx-2" >
+                            <input class="form-control me-2" type="search" aria-label="Search" placeholder="Searching for...">
+                        </form>
+                        <!-- Search-button -->
+                        <div class="flex-shrink-0" >
+                            <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search" alt="icon-search"></i> Search</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right-header -->
+                <div class="header-right col-4 d-flex justify-content-around align-items-center px-0">
+                    <div>
+                        <a href="homepage.html">
+                            <button class="btn "><i class="bi bi-house"></i> Home</button>
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="#">
+                            <button class="btn "><i class="bi bi-emoji-smile"></i> My Profile</button>
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="#">
+                            <button class="btn "><i class="bi bi-bell"></i> Notification</button>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <button class="btn btn-primary"><i class="bi bi-cart btn-lg" ></i></button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <!-- Body -->
+    <div class="container py-3 px-0">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="homepage.html">Homepage</a></li>
+                        <li class="breadcrumb-item"><a href="" class="text-muted">Phone-Tablets</a></li>
+                        <li class="breadcrumb-item"><a href="" class="text-muted">Smartphones</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Apple iPhone 14 Pro Max</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="d-grid gap-1" style="grid-template-columns: 38fr 62fr">
+                <!-- Big Right -->
+                <div class=" bg-white rounded-3">
+                    <div class="p-2">
+                        <img src="https://salt.tikicdn.com/cache/750x750/ts/product/0c/dd/e7/e6431984901119a1f8166cc4e579da93.png" class="bd-placeholder-img card-img-top rounded-3">
+                    </div>
+
+                    <div class="row m-0">
+                        <div class="col-2 btn">
+                            <img src="https://salt.tikicdn.com/cache/750x750/ts/product/0c/dd/e7/e6431984901119a1f8166cc4e579da93.png" class="bd-placeholder-img card-img-top">
+                        </div>
+                        <div class="col-2 btn">
+                            <img src="https://salt.tikicdn.com/cache/100x100/ts/product/89/0b/da/b8124e465e0585ba3d8f36a5bf9b4d0d.jpg" class="bd-placeholder-img card-img-top">
+                        </div>
+                        <div class="col-2 btn">
+                            <img src="https://salt.tikicdn.com/cache/100x100/ts/product/c2/dd/23/895bb2be6ff3b74660e99d36921ee365.jpg" class="bd-placeholder-img card-img-top">
+                        </div>
+                        <div class="col-2 btn">
+                            <img src="https://salt.tikicdn.com/cache/750x750/ts/product/0c/dd/e7/e6431984901119a1f8166cc4e579da93.png" class="bd-placeholder-img card-img-top">
+                        </div>
+                        <div class="col-2 btn">
+                            <img src="https://salt.tikicdn.com/cache/750x750/ts/product/0c/dd/e7/e6431984901119a1f8166cc4e579da93.png" class="bd-placeholder-img card-img-top">
+                        </div>
+                        <div class="col-2 btn">
+                            <a href=""><small>Xem thêm</small></a>
+                        </div>
+                    </div>
+
+                    <div class="my-2 d-flex justify-content-center">
+                        <a href="">
+                            <button class="btn btn-success"><i class="bi bi-share"></i> Sharing for discount</button>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Big Left -->
+                <div class=" bg-white rounded-3 p-2">
+                    <!-- Head -->
+                    <div>
+                        <small>Thương hiệu: <a href="#">Apple</a></small><br>
+                        <h4>Apple iPhone 14 Pro Max</h4>
+                        <div class="">
+                            <i class="bi bi-star-fill" style="color:orange"></i>
+                            <i class="bi bi-star-fill" style="color:orange"></i>
+                            <i class="bi bi-star-fill" style="color:orange"></i>
+                            <i class="bi bi-star-fill" style="color:orange"></i>
+                            <i class="bi bi-star-fill" style="color:orange"></i>
+                            <a href="" class="text-decoration-none">(300+ Comments)</a>
+                        </div>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="container mt-2">
+                        <div class="row">
+                            <div class="d-grid gap-2 px-0" style="grid-template-columns: 4fr 2fr;">
+                                <!-- Body-left -->
+                                <div class="">
+                                    <!-- Body-left-1 -->
+                                    <div class="border bg-light rounded-2 p-2">
+                                        <span style="font-size: 16px; margin: auto;color:red;font-weight: bold;font-size:xx-large;">30.000.000<sup> ₫</sup></span>
+                                        <small style="text-decoration: line-through">33.000.000<sup> ₫</sup></small>
+                                        <small style="color:red;font-weight: bold;">-12%</small><br>
+                                        <button class="btn btn-success"><i class="bi bi-cash"></i> Cashback</button>
+                                    </div>
+
+                                    <!-- Body-left-2 -->
+                                    <div class=" p-2">
+                                        <div>
+                                            <small>Color: </small><br>
+                                            <div class="d-flex justify-content-start">
+                                                <div class="col-3">
+                                                    <input type="radio" class="btn-check" name="color" id="gold" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2" for="gold">
+                                                        <img src="https://salt.tikicdn.com/cache/100x100/ts/product/0c/dd/e7/e6431984901119a1f8166cc4e579da93.png" class=" col-6">
+                                                        <span>Gold</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-3">
+                                                    <input type="radio" class="btn-check" name="color" id="silver" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2" for="silver">
+                                                        <img src="https://salt.tikicdn.com/cache/100x100/ts/product/ff/56/67/959c1f0452a2fe7e4f3453a9d77bb809.png" class="col-6">
+                                                        <span>Silver</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-3">
+                                                    <input type="radio" class="btn-check" name="color" id="black" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2" for="black">
+                                                        <img src="https://salt.tikicdn.com/cache/100x100/ts/product/0f/08/21/d46f8159e0ad5dff0192b9316e7d415f.png" class="col-6">
+                                                        <span>Black</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="my-2">
+                                            <small>Capacity: </small><br>
+                                            <div class="d-flex">
+                                                <div class="">
+                                                    <input type="radio" class="btn-check" name="capacity" id="128gb" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2 btn-sm" for="128gb">128GB</label>
+                                                </div>
+                                                <div class="">
+                                                    <input type="radio" class="btn-check" name="capacity" id="256gb" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2 btn-sm" for="256gb">256GB</label>
+                                                </div>
+                                                <div class="">
+                                                    <input type="radio" class="btn-check" name="capacity" id="512gb" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2 btn-sm" for="512gb">512GB</label>
+                                                </div>
+                                                <div class="">
+                                                    <input type="radio" class="btn-check" name="capacity" id="1t" autocomplete="off" checked>
+                                                    <label class="btn btn-outline-success mx-2 btn-sm" for="1t">1T</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                
+                                    <!-- Body-left-3 -->
+                                    <div class=" p-2 row">
+
+                                        <div class="col-6 p-2">
+                                            <div class="border p-2 rounded-2">
+                                                <div class="">
+                                                    <div class="" style="width: 32px;">
+                                                        <img src="https://salt.tikicdn.com/ts/upload/85/45/34/2fc25c6a660d84a41a6bf9276ce160ba.png" alt="" height="14" width="32">
+                                                    </div>
+                                                    <div class="">Before 10:00AM today</div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="">Shipping: 25.000đ</div>
+                                                </div>
+                                                <div class="">
+                                                    <img src="https://salt.tikicdn.com/ts/upload/df/e2/b4/063c4d55ca380f818547f00f5175d39f.png" alt="" width="13" height="">
+                                                    <span>Freeship 100% with .....</span>
+                                                    <span class=""></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 p-2">
+                                            <div class="border p-2 rounded-2">
+                                                <div class="">
+                                                    <div class="" style="width: 32px;">
+                                                        <img src="https://salt.tikicdn.com/ts/upload/67/e4/c2/02b5400b39bb3371e06d33c1e9f4d854.png" alt="" height="14" width="32">
+                                                    </div>
+                                                    <div class="">Tuesday, 31 Jan</div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="">Shipping: <span style="color:#00AB56;">Free</span>
+                                                        <span style="color:#808089;">&nbsp;<del>14.000đ</del></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-12 p-2">
+                                            <div class="title"><h6>Additional</h6></div>
+                                            <div class="wrap">
+                                                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                                <label class="form-check-label" for="inlineCheckbox1">[1 YEAR PACK] Screen Protect - Cashback to 5 millions</label>
+                                                <img class="info-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/checkout/icons-info-outlined-default.svg">
+                                                <span class="add-on-price">121.000 ₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <!-- Body-left-4 -->
+                                    <div class="">
+                                        <div class="">
+                                            <h6 style="font-weight: bolder;">Số lượng</h6> 
+                                            <form>
+                                                <input type="number" id="number" value="0" min="0" step="1" class="text-center w-25"/>
+                                            </form>
+                                        </div>
+
+                                        <div class="row my-2">
+                                            <div class="col-6 p-2 d-flex justify-content-start">
+                                                <button class="btn btn-danger w-100" style="height: 150%;"  type="button">Buy</button>
+                                            </div>
+                                            <div class="col-6 p-2">
+                                                <button class="btn btn-outline-primary w-100" style="height: 150%; ">Installment</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Body-right -->
+                                <div class="">
+                                    <div class="border rounded-3">
+                                        <div class="seller  border-bottom">
+                                            <div class="seller-info row m-2">
+                                                <div class="logo col-4 px-0 ">
+                                                    <img src="./logo-eshop.png" class="col-10 rounded-circle bd-placeholder-img">
+                                                </div>
+                                                <div class="col-8 d-flex align-items-center justify-content-start px-0">
+                                                    <h5>Eshop Trading</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="seller-detail row m-2 ">
+                                                <div class="col-6 p-2  text-center ">
+                                                    <h6 class="m-0"> 4.8 / 5 <i class="bi bi-star-fill" style="color: orange;"></i> </h6>
+                                                    <small style="font-size: smaller;">5.2tr+</small>
+                                                </div>
+                                                <div class="col-6 p-2  text-center ">
+                                                    <h6 class="m-0"> 500k+  </h6>
+                                                    <small style="font-size: smaller;">Theo dõi</small>
+                                                </div>
+                                            </div>
+
+                                            <div class="seller-action row m-2 ">
+                                                <div class="col-6 p-2">
+                                                    <button class="btn btn-outline-primary w-100"  type="button"><i class="bi bi-shop"></i> Visit</button>
+                                                </div>
+                                                <div class="col-6 p-2">
+                                                    <button class="btn btn-outline-primary w-100"><i class="bi bi-plus-lg"></i> Follow</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="warranty  border-bottom">
+                                            <div class="d-flex justify-content-between p-2 mx-2">
+                                                <div>
+                                                    <span>Warranty period</span>
+                                                </div>
+                                                <div>
+                                                    <span>12 months</span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between p-2 mx-2">
+                                                <div>
+                                                    <span>Warranty form</span>
+                                                </div>
+                                                <div>
+                                                    <span>Bill</span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between p-2 mx-2">
+                                                <div>
+                                                    <span>Place</span>
+                                                </div>
+                                                <div>
+                                                    <span>In-house</span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between p-2 mx-2">
+                                                <div>
+                                                    <span>Guidance</span>
+                                                </div>
+                                                <div>
+                                                    <span><a href="#" class="text-decoration-none"> Detail</a></span>
+                                                </div>
+                                            </div>
+        
+                                        </div>
+
+                                        <div class="other row text-center mx-0 my-2">
+                                            <div class="col-4 px-0">
+                                                <div>
+                                                    <i class="bi bi-shield-fill-check"></i>
+                                                </div>
+                                                <div>
+                                                    <small>Refund 111% if fake product </small> 
+                                                </div>
+                                            </div>
+                                            <div class="col-4 px-0">
+                                                <div>
+                                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                </div>
+                                                <div>
+                                                    <small>Open the delivery checbox</small> 
+                                                </div>
+                                            </div>
+                                            <div class="col-4 px-0">
+                                                <div>
+                                                    <i class="bi bi-arrow-repeat"></i>
+                                                </div>
+                                                <div>
+                                                    <small>Return within 7 days if faulty</small> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="col-12">
+            <div class="bg-white rounded-3 my-3 px-3 py-2 ">
+                <div class="row">
+
+                    <div class="col-12 d-flex justify-content-start align-items-center">
+                        <h5>Similar Product</h5>
+                    </div>
+
+                    <div class="col-12 my-2">
+                        <div class="tab-pane fade show active" id="ex3-tabs-1" role="tabpanel" aria-labelledby="ex3-tab-1" >
+                            <div class="album bg-white">
+            
+                                <div class="container">
+                                    <div class="row g-3">
+                                        <div class="col-3">
+                                            <div class="card shadow-sm">
+                                                <div class="thumbnail my-2" >
+                                                    <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://cdn.tgdd.vn/Products/Images/42/250728/TimerThumb/iphone-13-pro-max-1tb-(36).jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                                                    <img src="https://salt.tikicdn.com/cache/280x280/ts/product/e0/c9/78/e028f9346e1922b0aadc750f272609c3.jpg" class="bd-placeholder-img card-img-top">
+                                                </div>
+            
+                                                <div class="info px-3">
+                                                    <div class="d-flex justify-content-between align-items-center">                                                            
+                                                        <div class="name">
+                                                            <h6 class="card-text">Iphone 14 Pro</h6>
+                                                        </div>
+            
+                                                        <div class="star">
+                                                            <span style="font-size: 16px; margin: auto;">5 <i class="bi bi-star-fill"></i></span>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="price d-flex justify-content-center border-bottom">
+                                                        <span style="font-size: 16px; margin: auto;color:red;font-weight: bold;font-size: larger;">20.000.000<sup> ₫</sup></span>
+                                                    </div>
+                                                
+                                                    <div class="badge-freeship my-2 d-flex justify-content-between align-items-center">
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Freeship</button>
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Now 2H</button>
+                                                        </div>
+                                                        <small class="text-muted">9 mins</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-3">
+                                            <div class="card shadow-sm">
+                                                <div class="thumbnail my-2" >
+                                                    <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://cdn.tgdd.vn/Products/Images/42/250728/TimerThumb/iphone-13-pro-max-1tb-(36).jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                                                    <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0f/08/21/8995e74fd95c47c4ab9ef244a5559176.png" class="bd-placeholder-img card-img-top">
+                                                </div>
+            
+                                                <div class="info px-3">
+                                                    <div class="d-flex justify-content-between align-items-center">                                                            
+                                                        <div class="name">
+                                                            <h6 class="card-text">Iphone 14 Pro</h6>
+                                                        </div>
+            
+                                                        <div class="star">
+                                                            <span style="font-size: 16px; margin: auto;">5 <i class="bi bi-star-fill"></i></span>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="price d-flex justify-content-center border-bottom">
+                                                        <span style="font-size: 16px; margin: auto;color:red;font-weight: bold;font-size: larger;">20.000.000<sup> ₫</sup></span>
+                                                    </div>
+                                                
+                                                    <div class="badge-freeship my-2 d-flex justify-content-between align-items-center">
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Freeship</button>
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Now 2H</button>
+                                                        </div>
+                                                        <small class="text-muted">9 mins</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-3">
+                                            <div class="card shadow-sm">
+                                                <div class="thumbnail my-2" >
+                                                    <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://cdn.tgdd.vn/Products/Images/42/250728/TimerThumb/iphone-13-pro-max-1tb-(36).jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                                                    <img src="https://salt.tikicdn.com/cache/280x280/ts/product/ca/5d/be/0466fed7eaa6095baecd90f06419bc09.png" class="bd-placeholder-img card-img-top">
+                                                </div>
+            
+                                                <div class="info px-3">
+                                                    <div class="d-flex justify-content-between align-items-center">                                                            
+                                                        <div class="name">
+                                                            <h6 class="card-text">Iphone 14 Pro</h6>
+                                                        </div>
+            
+                                                        <div class="star">
+                                                            <span style="font-size: 16px; margin: auto;">5 <i class="bi bi-star-fill"></i></span>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="price d-flex justify-content-center border-bottom">
+                                                        <span style="font-size: 16px; margin: auto;color:red;font-weight: bold;font-size: larger;">20.000.000<sup> ₫</sup></span>
+                                                    </div>
+                                                
+                                                    <div class="badge-freeship my-2 d-flex justify-content-between align-items-center">
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Freeship</button>
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Now 2H</button>
+                                                        </div>
+                                                        <small class="text-muted">9 mins</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-3">
+                                            <div class="card shadow-sm">
+                                                <div class="thumbnail my-2" >
+                                                    <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="https://cdn.tgdd.vn/Products/Images/42/250728/TimerThumb/iphone-13-pro-max-1tb-(36).jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                                                    <img src="https://salt.tikicdn.com/cache/280x280/ts/product/a2/38/6c/ce008c63f4ac771550439da44f5f8ee8.png" class="bd-placeholder-img card-img-top">
+                                                </div>
+            
+                                                <div class="info px-3">
+                                                    <div class="d-flex justify-content-between align-items-center">                                                            
+                                                        <div class="name">
+                                                            <h6 class="card-text">Iphone 14 Pro</h6>
+                                                        </div>
+            
+                                                        <div class="star">
+                                                            <span style="font-size: 16px; margin: auto;">5 <i class="bi bi-star-fill"></i></span>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="price d-flex justify-content-center border-bottom">
+                                                        <span style="font-size: 16px; margin: auto;color:red;font-weight: bold;font-size: larger;">20.000.000<sup> ₫</sup></span>
+                                                    </div>
+                                                
+                                                    <div class="badge-freeship my-2 d-flex justify-content-between align-items-center">
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Freeship</button>
+                                                            <button type="button" class="btn btn-sm btn-outline-primary">Now 2H</button>
+                                                        </div>
+                                                        <small class="text-muted">9 mins</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-white py-3" >
+        <div class="container">
+    
+                <div class="d-flex flex-wrap justify-content-between align-items-center ">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="homepage.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <img src="./logo-eshop.png" width="25" height="25" alt="" class="rounded-circle">
+                        </a>
+                        <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Eshop, Inc </span>
+                    </div>
+    
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><i class="bi bi-twitter"></i></a></li>
+                    </ul> 
+                </div>
+    
+        </div>
+
+    </div>
+
+    <!-- Javascript main -->
+    <script src="./main.js"></script>
+
+    <!-- Javascript bootstrap -->
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="https://gosnippets.com/assets/js/jquery.min.js"></script> -->
+</body>
+
+</html>
+
